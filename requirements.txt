@@ -1,0 +1,4 @@
+Django==6.0.7
+django-redis==7.0.0
+redis==8.1.0
+djangorestframework==3.17.1
