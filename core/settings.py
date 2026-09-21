@@ -124,3 +124,7 @@ CACHES = {
         "OPTIONS": {"CLIENT_CLASS": "django_redis.client.DefaultClient"},
     }
 }
+
+REST_FRAMEWORK = {
+    "NUM_PROXIES": 0,  # 1 if behind Nginx or a load balancer
+}
