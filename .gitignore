@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+
+# Secrets
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Tools
+.ruff_cache/
+.pytest_cache/
